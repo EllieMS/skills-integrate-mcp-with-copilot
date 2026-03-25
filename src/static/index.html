@@ -15,6 +15,15 @@
     <main>
       <section id="activities-container">
         <h3>Available Activities</h3>
+        <div id="activity-controls" style="margin-bottom: 1em;">
+          <label for="filter-text">Search:</label>
+          <input type="text" id="filter-text" placeholder="Type to filter activities..." />
+          <label for="sort-select">Sort by:</label>
+          <select id="sort-select">
+            <option value="name">Name</option>
+            <option value="spots">Spots Left</option>
+          </select>
+        </div>
         <div id="activities-list">
           <!-- Activities will be loaded here -->
           <p>Loading activities...</p>
